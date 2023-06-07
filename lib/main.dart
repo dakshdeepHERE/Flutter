@@ -24,3 +24,39 @@ void main() {
     ),
   ));
 }
+// Slider widget code
+/*
+import 'package:flutter/material.dart';
+
+class SliderWidget extends StatefulWidget {
+  @override
+  _SliderWidgetState createState() => _SliderWidgetState();
+}
+
+class _SliderWidgetState extends State<SliderWidget> {
+  double _currentSliderValue = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Slider(
+          value: _currentSliderValue,
+          min: 0,
+          max: 100,
+          onChanged: (double value) {
+            setState(() {
+              _currentSliderValue = value;
+            });
+          },
+        ),
+        Text(
+          'Slider Value: $_currentSliderValue',
+          style: TextStyle(fontSize: 20),
+        ),
+      ],
+    );
+  }
+}
+*/
