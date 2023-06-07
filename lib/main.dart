@@ -60,3 +60,46 @@ class _SliderWidgetState extends State<SliderWidget> {
   }
 }
 */
+
+// url launcher code
+/*
+import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+class YouTubeRedirectWidget extends StatelessWidget {
+  final String videoId;
+
+  YouTubeRedirectWidget({required this.videoId});
+
+  _launchYouTubeVideo() async {
+    String url = 'https://www.youtube.com/watch?v=$videoId';
+
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: _launchYouTubeVideo,
+      child: Container(
+        width: 200,
+        height: 50,
+        color: Colors.red,
+        child: Center(
+          child: Text(
+            'Watch on YouTube',
+            style: TextStyle(
+              fontSize: 18,
+              color: Colors.white,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+*/
