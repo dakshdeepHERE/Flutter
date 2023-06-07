@@ -6,44 +6,21 @@ void main() {
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: const Center(
-        child: Image(
-          image: NetworkImage(
-              'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
+      body: Container(
+        decoration: const BoxDecoration(
+          color: Color.fromARGB(255, 252, 70, 57),
         ),
-      ),
-    ),
-  ));
-
-  return runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-      ),
-      body: Center(
-        child: Text(
-          'Hello World',
-          style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            color: Colors.blue,
+        child: const Center(
+          child: Text(
+            'Hello World',
+            style: TextStyle(
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
         ),
       ),
     ),
   ));
-
-  // return runApp(MaterialApp(
-  //   home: Scaffold(
-  //     appBar: AppBar(
-  //       title: const Text('Home'),
-  //     ),
-  //     body: Center(
-  //       child: ElevatedButton(
-  //         onPressed: () {},
-  //         child: Text('Click Me'),
-  //       ),
-  //     ),
-  //   ),
-  // ));
 }
