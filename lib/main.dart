@@ -7,6 +7,9 @@ void main() {
           title: const Text('Home'),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          // start will push the content on the top
+          // end will push the content to the bottom
           children: [
             Container(
               decoration: const BoxDecoration(
