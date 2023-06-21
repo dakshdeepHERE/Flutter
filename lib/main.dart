@@ -8,6 +8,7 @@ void main() {
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           // start will push the content on the top
           // end will push the content to the bottom
           children: [
