@@ -7,6 +7,10 @@ void main() {
           title: const Text('Home'),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          // start will push the content on the top
+          // end will push the content to the bottom
           children: [
             Container(
               decoration: const BoxDecoration(
@@ -33,7 +37,7 @@ void main() {
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Colors.green,
                   ),
                 ),
               ),
@@ -48,7 +52,7 @@ void main() {
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Colors.yellow,
                   ),
                 ),
               ),
