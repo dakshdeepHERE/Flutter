@@ -33,7 +33,7 @@ void main() {
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Colors.green,
                   ),
                 ),
               ),
@@ -48,7 +48,7 @@ void main() {
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Colors.yellow,
                   ),
                 ),
               ),
